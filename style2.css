@@ -1,0 +1,161 @@
+
+/*
+    Estilos de index2
+*/
+
+
+
+
+*{
+    
+    font-family: monospace , sans-serif;
+}
+
+.barra-lateral{
+    position: fixed;
+    width: 50px;
+    height: 100%;
+}
+
+.barra-lateral .titulo-barra{
+    text-align: center;
+    width: 200px;
+    padding: 30px;
+}
+
+.barra-lateral .imagen{
+    display: flex;
+    place-content: end;
+    
+    width: 50px;
+    height: 30px;
+}
+
+.barra-lateral .lista-desordenada{
+    list-style: none;
+    padding: 25px;
+}
+
+.barra-lateral .lista-ordenada{
+    transition: .5s all;
+}
+
+.barra-lateral .enlace-barra{
+    margin: auto;
+    text-decoration: none;
+    transition: .3s all;
+    font-size: 0px;
+    
+}
+
+.barra-lateral .titulo-barra{
+    
+  
+    color: white;
+    padding: 7px;
+    padding-bottom: 7px;
+    font-size: 0px;
+}
+
+.barra-lateral:hover{
+    background-color: #000046;
+    width: 200px;
+}
+
+.imagen:hover{
+    width: 200px;
+    height: 100%;
+    background-color: rgba(5,33,51,0.98);
+}
+
+.barra-lateral:hover .titulo-barra{
+    height: 5px;
+    width: 200px;
+    font-size: 35px;
+    
+
+}
+
+.barra-lateral:hover .enlace-barra{
+    width: 150px;
+    font-size: 20PX;
+    color: white;
+
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+    margin: auto;
+}
+
+.barra-lateral:hover .enlace-barra:hover{
+    font-size: 20px;
+    padding: 30px 0px;
+    background-color: rgba(22,78,112,0.98);
+}
+.barra-lateral:hover .imagen{
+    height: 0px;
+}
+
+.barra-lateral i{
+    margin: 5px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .tarjeta, .tarjeta2{
+    margin-right: 15px;
+    width: 500px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+h3{
+    
+    text-align: center;
+}
+
+
+
+
+
+/*
+    Estilos de formulario
+*/
+
+
+
+
+form{
+    background-color:white;
+    height: 600px;
+    width: 400px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+input{
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+i{
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.botones{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+
+
+
